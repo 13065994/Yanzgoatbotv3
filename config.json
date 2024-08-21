@@ -12,20 +12,17 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "adminOnly": true,
+  "adminOnly": false,
   "adminBot": [
-    "100052395031835",
-    "",
-    "61554255335359",
-    "61553689905717"
+    "61560951290111"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "[×] ➢ 𝙔𝙖𝙣𝙯𝙪 (ᴷʸˡᵉ'ˢ ᴮᵒᵗ) ",
-  "prefix": "×",
+  "nickNameBot": "⟩» + «⟨ 𝙈𝘼𝙏𝙀𝙊 𝘾𝙃𝘼𝙏𝘽𝙊𝙏 ( 𝐋𝐓𝐃 ) ",
+  "prefix": "+",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -78,8 +75,8 @@
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
   },
   "autoRefreshFbstate": true,
-  "autoReloginWhenChangeAccount": false,
-  "autoRestartWhenListenMqttError": false,
+  "autoReloginWhenChangeAccount": true,
+  "autoRestartWhenListenMqttError": true,
   "restartListenMqtt": {
     "disable": false,
     "timeRestart": 0,
