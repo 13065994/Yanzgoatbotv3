@@ -7,8 +7,8 @@
   "envCommands": {
     "daily": {
       "rewardFirstDay": {
-        "coin": 100,
-        "exp": 10
+        "coin": 1900,
+        "exp": 102
       }
     },
     "notification": {
@@ -21,7 +21,7 @@
       "deltaNext": 5
     },
     "appstore": {
-      "limitResult": 3
+      "limitResult": 5
     },
     "dhbc": {
       "reward": 1000
